@@ -11,8 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
 Route::get('demo','DemoController@index')->name('index');
+Route::get('/', 'PagesController@root')->name('root');
