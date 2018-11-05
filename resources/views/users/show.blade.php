@@ -12,7 +12,7 @@
                     <div class="media">
                         <div align="center">
                             <img class="thumbnail img-responsive"
-                                 src="https://iocaffcdn.phphub.org/uploads/images/201709/20/1/PtDKbASVcz.png?imageView2/1/w/600/h/600"
+                                 src="{{ $user->avatar }}"
                                  width="300px" height="300px">
                         </div>
                         <div class="media-body">
@@ -27,7 +27,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+        <div class="col-lg-9 col-md-9 -smcol-12 col-xs-12">
             <div class="panel panel-default">
                 <div class="panel-body">
                 <span>
